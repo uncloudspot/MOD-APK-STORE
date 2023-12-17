@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#nav {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+ 
+  background-color: #56C227;
+  
+}
+#wename {
+ 
+}
+#webdiv {
+  width: 60vw;
+ background-color: #F2F2F2;
+ padding-top: 4%;
+ margin-left: 20%;
+ font-size: 30px;
+ border-radius: 50px;
+ text-align: center;
+ padding-bottom: 0px;
+}
+#appscontent{
+  width: 800px;
+  height: 600px;
+  background-color: #E7E7E7;
+  margin-top: 60px;
+  margin-left: 100px;
+  border-radius: 60px;
+  font-size: 25px;
+  
+}
+img {
+  margin-left: 10%;
+  margin-top: 6%;
+}
+#appname {
+  margin-left: 32%;
+  position:absolute;
+  bottom: 1430px;
+  
+}
+a {
+  width: 55%;
+  height: 4%;
+  margin-left: 20%;
+  position:absolute;
+  top: 600px;
+  text-decoration: none;
+  background-color: #60B52D;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 30px;
+  font-size: 60px;
+  
+}
+@media screen and (max-width:768px) {
+ 
+#webdiv {
+  width: 70vw;
+ background-color: #F2F2F2;
+ padding-top: 7%;
+ margin-left: 16%;
+ font-size: 20px;
+ border-radius: 30px;
+ padding-bottom: 0px;
+ 
+}
+
+
+
+
+  #nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+ 
+  background-color: #56C227;
+  
+}
+
+#appscontent{
+  width: 340px;
+  height: 500px;
+  background-color: #E7E7E7;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+#appname {
+  margin-left: 3%;
+  position:absolute;
+  bottom: 300px;
+  
+}
+a {
+  width: 70%;
+  height: 4%;
+  margin-left: 15%;
+  position:absolute;
+  top: 500px;
+  text-decoration: none;
+  background-color: #60B52D;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  
+}
+
+img {
+  margin-left: 16%;
+  margin-top: 6%;
+}
+}
